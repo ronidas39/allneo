@@ -1,0 +1,25 @@
+Features to be developed as part of release 1.0
+
+Base framework:
+ 1. Base Framework to Support Extensibility 
+ 2. Loggers to log Error, Warning & Info
+ 3. Notification of changes and support for frameworks
+ 4. Unit testing support
+ 5. Analytics support
+ 6. Support for forum
+ 7. List of required Nuggets and Packages.
+ 8. Compatibility
+ 
+
+Applicatio features:
+  1. Aggregate functions
+    a. Count-
+      1. GetNodeCount()
+      2. GetLabelCount()
+      3. GetPropertyKeysCount()
+      4. GetNodeCountByLabel(LabelName)
+      5. GetLabelCountByNode(NodeName)
+      6. GetPropertyCountByNode(NodeName)
+      7. GetNodeCountByProperty(PropertyName)
+      8. GetNodeCountBetween(StartNode,EndNode) 
+      
