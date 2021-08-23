@@ -16,7 +16,7 @@ class NeoLogger:
         
         #allNeo_handler.setLevel()        
         allNeo_handler.setFormatter(allNeo_format)
-
+        
         allNeo_logger.addHandler(allNeo_handler)
                
         return allNeo_logger
