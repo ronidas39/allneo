@@ -1,25 +1,6 @@
-from logging import Logger
-from neo4j.work.simple import Session
-from AllNeo_Code.Helper.logger import NeoLogger as NL
-from AllNeo_Code.Base.setUp import Connections
+import baseTest
 from AllNeo_Code.Feature.Count import Count
-
-
-class baseTest:
-
-    def __init__(self):
-        self.con = Connections('bolt://localhost:7687','ChichKa','neo4j')
-        self.testSession = self.con.getSession()
-
-class testLogger(baseTest):
-
-    def testLogger():
-        Logger = NL.getLogger("Whatever")
-        Logger.warning("Test Warning")
-        Logger.error("Test Error")
-        Logger.exception("Test Exception")
-        Logger.debug("Test Debug")
-        Logger.info("Test Infos")
+from logging import Logger
 
 class testDB(baseTest):
     def testConnection(self):        
